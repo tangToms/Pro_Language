@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+    <TextView
+        android:text="@string/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/back">
+    </TextView>
+    <Button
+        android:id="@+id/btn_open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开弹窗">
+    </Button>
+    <Button
+        android:id="@+id/btn_open_single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单选框弹窗">
+    </Button>
+    <Button
+        android:id="@+id/btn_open_multi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多选框弹窗">
+    </Button>
+</LinearLayout>
